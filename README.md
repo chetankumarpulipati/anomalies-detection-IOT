@@ -4,11 +4,8 @@ This project is designed to analyze sensor data and detect anomalies using vario
 
 ## Project Structure
 
-- 
-
-anomalies-analysis.ipynb
-
-: Jupyter Notebook containing the code for data analysis, model training, prediction, and anomaly detection.
+- anomalies-analysis.ipynb
+- Jupyter Notebook containing the code for data analysis, model training, prediction, and anomaly detection.
 - `sensor-data.csv`: CSV file containing the sensor data.
 - `images/`: Directory to save the generated plots.
 
