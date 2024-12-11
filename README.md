@@ -42,36 +42,13 @@ This project is designed to analyze sensor data and detect anomalies using vario
 5. Visualize the results and save the plots in the `images/` directory.
 6. If anomalies are detected, send an alert email using the 
 
-open_default_mail_app
-
- function.
-
 ## Functions
 
 ### 
 
 open_default_mail_app(to, subject, body)
 
-
-
 This function opens the default mail application with a pre-filled email.
-
-**Parameters:**
-- 
-
-to
-
- (str): Recipient email address.
-- 
-
-subject
-
- (str): Subject of the email.
-- 
-
-body
-
- (str): Body of the email.
 
 **Example:**
 open_default_mail_app("example@example.com", "Alert", "Anomaly detected in sensor data.")
